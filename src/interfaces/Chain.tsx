@@ -45,9 +45,11 @@ export type Chain = {
     explorerUrl?: string;
     rpcUrl?: string;
     apiUrl?: string;
-    nativeCurrency?: {
+    nativeCurrency: {
+        name: string;
         symbol: string;
         decimals: number;
     };
     supportedEndpoints: SupportedEndpoints;
+    icon: string;
 };

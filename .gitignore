@@ -4,3 +4,4 @@ dist
 !index.ts
 *.ts.map
 *.js
+/explorer-testing
