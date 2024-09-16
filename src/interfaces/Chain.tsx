@@ -50,6 +50,6 @@ export type Chain = {
         symbol: string;
         decimals: number;
     };
-    supportedEndpoints: SupportedEndpoints;
+    supportedEndpoints?: SupportedEndpoints;
     icon: string;
 };

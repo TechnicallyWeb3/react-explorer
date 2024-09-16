@@ -10,10 +10,13 @@
   },
   "dependencies": {
     "@tw3/react-explorer": "^0.1.0",
+    "bs58": "^6.0.0",
+    "crypto": "^1.0.1",
     "next": "^13.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "tslib": "^2.7.0"
+    "tslib": "^2.7.0",
+    "web3": "^4.12.1"
   },
   "scripts": {
     "build": "tsc"
